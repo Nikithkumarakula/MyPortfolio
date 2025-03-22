@@ -1,0 +1,83 @@
+/* Education Section Styling */
+#education {
+  padding: 40px;
+  background-color: #f3f4f6;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Style */
+#education h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 20px;
+}
+
+/* Subheadings */
+#education h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4a5568;
+  margin-top: 20px;
+}
+
+/* Paragraph Styles */
+#education p {
+  font-size: 1.2rem;
+  color: #606f7b;
+  margin: 5px 0;
+}
+
+/* Highlight Percentage */
+#education .percentage {
+  font-weight: bold;
+  color: #2d89ef;
+}
+
+/* Certifications Section - Display as a Vertical List */
+.certifications ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* .certifications li {
+  background: rgba(45, 55, 72, 0.1);
+  padding: 12px;
+  border-radius: 5px;
+  margin: 8px auto;
+  font-weight: 500;
+  width: 60%;
+  text-align: center;
+} */
+
+/* Additional Info Section */
+.additional-info p {
+  font-style: italic;
+  font-size: 1rem;
+  color: #718096;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #education {
+    padding: 20px;
+  }
+
+  #education h2 {
+    font-size: 2rem;
+  }
+
+  #education h3 {
+    font-size: 1.5rem;
+  }
+
+  #education p {
+    font-size: 1rem;
+  }
+
+  .certifications li {
+    width: 80%;
+  }
+}

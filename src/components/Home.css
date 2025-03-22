@@ -1,0 +1,19 @@
+.home {
+  height: 100vh; /* Full height */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Column direction */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  background-color: #2d3748; /* Dark background */
+  color: white; /* White text */
+}
+
+.home h1 {
+  font-size: 4rem; /* Font size for title */
+  font-weight: bold; /* Bold title */
+}
+
+.home p {
+  font-size: 1.25rem; /* Font size for description */
+  margin-top: 1rem; /* Margin above description */
+}

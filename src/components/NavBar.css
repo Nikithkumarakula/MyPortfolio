@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #1a202c; /* Dark background */
+  color: white; /* White text */
+  padding: 1rem; /* Padding */
+  padding-bottom: 1rem; /* Additional padding below */
+  position: fixed; /* Fixed position */
+  width: 100%; /* Full width */
+  top: 0; /* Stick to the top */
+  z-index: 10; /* Ensure it stays on top */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+
+
+.navbar h1 {
+  font-size: 2rem; /* Font size for title */
+  font-weight: bold; /* Bold title */
+}
+
+.navbar .link {
+  padding: 0 1rem; /* Padding for links */
+  margin: 0 2rem; /* Increased margin for more spacing between links */
+  cursor: pointer; /* Pointer cursor for links */
+}
+
+.navbar .link:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+  border-radius: 4px; /* Rounded corners for hover effect */
+}

@@ -1,0 +1,16 @@
+.about {
+  padding: 2.5rem; /* Padding */
+  background-color: #edf2f7; /* Light background */
+}
+
+.about h2 {
+  font-size: 3rem; /* Font size for title */
+  font-weight: bold; /* Bold title */
+  text-align: center; /* Center title */
+}
+
+.about p {
+  margin-top: 1rem; /* Margin above description */
+  font-size: 1.25rem; /* Font size for description */
+  text-align: center; /* Center description */
+}
